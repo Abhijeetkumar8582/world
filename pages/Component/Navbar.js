@@ -12,7 +12,11 @@ function Navbar() {
       >
         <div className="container-fluid">
           {/* Logo and Navbar title with spacing */}
-          <a className="navbar-brand d-flex align-items-center" href="#" style={{ color: "white" }}>
+          <a
+            className="navbar-brand d-flex align-items-center"
+            href="#"
+            style={{ color: "white" }}
+          >
             <Image
               src="/1.png" // Path to your logo image
               alt="Logo"
@@ -21,7 +25,7 @@ function Navbar() {
               className="d-inline-block align-text-top"
             />
             {/* Adding a 10px space between logo and title */}
-            <span style={{ marginLeft: "10px" }}>Navbar</span>
+            <span style={{ marginLeft: "10px" }}>Sana's World</span>
           </a>
           <button
             className="navbar-toggler"
@@ -37,18 +41,26 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             {/* Align the links to the right */}
             <div className="navbar-nav ms-auto">
-              <a className="nav-link active" aria-current="page" href="#" style={{ color: "white" }}>
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="/"
+                style={{ color: "white" }}
+              >
                 Home
               </a>
               <a className="nav-link" href="#" style={{ color: "white" }}>
                 Features
               </a>
-              <a className="nav-link" href="#" style={{ color: "white" }}>
-                Pricing
-              </a>
-              <a className="nav-link disabled" aria-disabled="true" style={{ color: "white" }}>
-                Disabled
-              </a>
+              <Link
+                className="nav-link"
+                href="/Component/Review"
+                to="/Review"
+                style={{ color: "white" }}
+              >
+                Review
+              </Link>
+              
             </div>
           </div>
         </div>

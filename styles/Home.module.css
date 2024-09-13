@@ -339,7 +339,99 @@
   display:flex;
   flex-direction: column;
 }
-@media (max-width: 768px) {
+
+
+
+.buttonDiv{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.custombtn1 {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+ }
+ 
+ .custombtn1 {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+  border: none;
+ }
+ 
+ .custombtn1:before {
+  height: 0%;
+  width: 2px;
+ }
+ 
+ .custombtn1:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+     inset -4px -4px 6px 0 rgba(255,255,255,.2),
+     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+ }
+
+ .imageListDiv{
+  padding: 50px 80px
+ }
+
+ .imageList_column{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-y: hidden; 
+  grid-gap: 6px;
+  margin-bottom: 20px
+
+ }
+ .imageListItem {
+  position: relative;
+  margin-bottom: 70px;
+ }
+
+ .imageListItemBar{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+ }
+
+ .VideoListDiv{
+  padding: 50px 80px
+ }
+ .VideoList_column{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-y: hidden; 
+  grid-gap: 6px;
+  margin-bottom: 20px
+ }
+
+@media (max-width: 980px) {
+  .imageList_column {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .VideoList_column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .sectionContainer {
     flex-direction: column;
     text-align: center;
@@ -381,4 +473,9 @@
   .testimonialcontainer{
     margin-top: 10px;
   }
+  .imageListDiv ,.VideoListDiv{
+    padding: 20px 30px
+  }
+
+  
 }
