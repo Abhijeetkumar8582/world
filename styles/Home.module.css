@@ -1,0 +1,520 @@
+.sectionContainer {
+  display: flex;
+  background: #FAF9F6;
+  color: #800020;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows stacking on small screens */
+}
+
+.textContainer {
+  flex: 1;
+  width: 70%;
+  position: relative; /* Allows positioning chatboxContainer absolutely */
+}
+
+.imageContainer {
+   position: relative;
+  background-color: #FAF9F6; /* Off-White Background */
+   gap:20px;/* Optional padding */
+  border: 3px solid #D4AF37; /* Gold Border */
+  border-radius: 15px; /* Smooth rounded corners */
+  box-shadow: 0px 8px 20px rgba(212, 175, 55, 0.4); /* Subtle gold shadow for a premium look */
+  overflow: hidden; /* Ensures no content spills out */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.learnMoreButton {
+  background-color: #D4AF37;
+  color: #FAF9F6;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #FAF9F6 -2%, #D4AF37 100%);
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.learnMoreButton:hover {
+  background-color: #005bb5;
+}
+
+.image {
+  width: fit-content;
+ 
+}
+
+.chatboxContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  gap: 10px;
+  margin-top: 20px; /* Adds spacing between the button and chatboxes */
+}
+
+.chatbox {
+  background: #a04c74;
+  color: white; /* Adjust text color if needed */
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 300px; /* Adjust as needed */
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #800020;
+  padding: 20px;
+  background: linear-gradient(135deg, #FAF9F6, #D4AF37);
+
+}
+
+/* Header */
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  color: #800020;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tagline {
+  font-size: 12px;
+  color: #2F4F4F;
+  letter-spacing: 2px;
+  
+}
+
+.title {
+  font-size: 36px;
+  color: black;
+}
+
+.description {
+  text-align: left;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.feature {
+  /* flex: 1; */
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Images */
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* From Uiverse.io by waleedlh10 */ 
+.card {
+  width: 280px;
+  background: a04c74;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px -2px #bebebe;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  /* height: 7em; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: linear-gradient(#7980c5, #9198e5);
+  display: flex;
+  align-items: top;
+  justify-content: right;
+  
+}
+.imagefill{
+  color: transparent;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: fill;
+  width: -webkit-fill-available;}
+.save {
+  transition: 0.2s ease-in-out;
+  border-radius: 10px;
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.save .svg {
+  transition: 0.2s ease-in-out;
+  width: 15px;
+  height: 15px;
+}
+
+.save:hover .svg {
+  fill: #ced8de;
+}
+
+.text {
+  padding: 7px 20px;
+  background:  #FFF4E0;
+  color: #800020;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+}
+
+.text .h3 {
+  font-family: system-ui;
+  font-size: medium;
+  font-weight: 600;
+  color: #800020;
+  text-align: center;
+}
+
+.text .p {
+  font-family: system-ui;
+  color: #800020;
+  font-size: 13px;
+  margin: 0px;
+  text-align: center;
+  padding: 5px;
+}
+
+.iconbox {
+  margin: 10px;
+  padding: 5px 15px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  text-align: center;
+}
+.Contactus{
+  margin: 0;
+  color: black;
+  /* padding: 5px 15px; */
+  font-size: smaller;
+}
+.iconbox .span {
+  font-family: system-ui;
+  font-size: small;
+  font-weight: 500;
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */
+
+.authorcontainer {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial;
+  background-color: #914999;
+  color: white;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.quote {
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+ 
+}
+.author {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.testimonialcontainer{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ justify-content: center;
+  padding: 20px;
+  
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #FAF9F6;
+  padding: 20px 0px;
+  color: #800020;
+
+}
+.testimonialquote{
+  font-size: 20px;
+  font-style: italic;
+  color: #800020;
+  background-color: #914999;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+  padding: 15px;
+}
+
+.testimonialcard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2);
+   justify-content: space-between;
+  /* background-color:  rgb(233 233 233); */
+  padding: 20px;
+  border-color: #FFD700;
+  max-width: 320px;
+  background:#FFF5E6 
+}
+
+.testimonialstars {
+  display: flex;
+  grid-gap: 0.125rem;
+  gap: 0.125rem;
+  color: rgb(238, 203, 8);
+}
+
+.testimonialstar {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.testimonialinfos {
+  margin-top: 1rem;
+  
+}
+
+.testimonialdatetime {
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.testimonialdescription {
+  margin-top: 0.4rem;
+  line-height: 1.625;
+  color: #800020;
+}
+
+.testimonialauthor {
+  margin-top: 1.3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color:#800020;
+}
+.contactusDiv{
+  display: flex;
+  gap:20px;
+  padding: 10px 40px;
+  background: linear-gradient(90deg, #FAF9F6 -2%, #D4AF37 100%);
+}
+.ServiceContainer{
+  background: #FAF9F6;
+  padding: 20px 0px;
+  color: #800020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.productList{
+  display: flex;
+  justify-content: center;
+  background: #FAF9F6;
+  color: #800020;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 15px;
+}
+
+.contactusDivImage{
+  position: relative;
+  background-color: #FAF9F6; /* Off-White Background */
+   gap:20px;/* Optional padding */
+  border: 3px solid #D4AF37; /* Gold Border */
+  border-radius: 15px; /* Smooth rounded corners */
+  box-shadow: 0px 8px 20px rgba(212, 175, 55, 0.4); /* Subtle gold shadow for a premium look */
+  overflow: hidden; /* Ensures no content spills out */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contactusDivText{
+  width: 70% ;
+  color:black;
+  justify-content:center;
+
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+.buttonDiv{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+.custombtn1 {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+ }
+ 
+ .custombtn1 {
+  background: rgb(96,9,240);
+  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+  border: none;
+ }
+ 
+ .custombtn1:before {
+  height: 0%;
+  width: 2px;
+ }
+ 
+ .custombtn1:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+     inset -4px -4px 6px 0 rgba(255,255,255,.2),
+     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+ }
+
+ 
+ @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-150px * 7)); /* Adjust based on single logo width */
+  }
+}
+
+.logocarouselcontainer {
+  height: 120px;
+  padding: 20px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  position: relative;
+  width: auto;
+  background: linear-gradient(90deg, #FAF9F6 -2%, #D4AF37 100%);
+
+}
+
+.slidetrack {
+  display: flex;
+  width: calc(150px * 14); /* Adjust based on total logos */
+  animation: scroll 40s linear infinite;
+}
+
+
+.slide {
+  height: 50px;
+  width: 150px;
+  color: transparent;
+  filter: grayscale(100%);
+}
+
+.slide:hover {
+  filter: grayscale(0%);
+}
+
+@media (max-width: 980px) {
+  .imageList_column {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .VideoList_column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .sectionContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+.imageContainer{
+  flex-direction: column;
+  text-align: center;
+}
+  .textContainer {
+    max-width: 100%;
+  }
+
+  .imageContainer {
+    margin-top: 20px;
+  }
+  .container{
+    flex-direction: column;
+  }
+  
+  .card{
+    width: 350px;
+  }
+  .contactusDiv{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contactusDivImage{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .contactusDivText{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .imageContainer{
+   display: block;
+  }
+  .testimonialcontainer{
+    margin-top: 10px;
+  }
+  .imageListDiv ,.VideoListDiv{
+    padding: 20px 30px
+  }
+
+  
+}

@@ -1,0 +1,169 @@
+
+.buttonDiv{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .imageListDiv{
+    padding: 50px 80px;
+    
+   }
+  
+ .imageList_column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: hidden; 
+    grid-gap: 6px;
+    
+  
+   }
+   .imageListItem {
+    position: relative;
+    margin-bottom: 70px;
+   }
+  
+   .imageListItemBar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+   }
+  
+   .VideoListDiv{
+    padding: 50px 80px
+   }
+   .VideoList_column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-y: hidden; 
+    grid-gap: 6px;
+    margin-bottom: 20px
+   }
+  
+  .custombtn1 {
+    width: 130px;
+    height: 40px;
+    color: #800020;
+    
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato';
+    font-weight: 520;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      7px 7px 20px 0px rgba(0,0,0,.1),
+      4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+   }
+   
+   .custombtn1 {
+    background: linear-gradient(90deg, #FAF9F6 -2%, #D4AF37 100%);
+    border: none;
+   }
+   
+   .custombtn1:before {
+    height: 0%;
+    width: 2px;
+   }
+   
+   .custombtn1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+                 -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+       inset -4px -4px 6px 0 rgba(255,255,255,.2),
+       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+   }
+  
+     
+  .custombtn2 {
+    width: 250px;
+    height: 40px;
+    /* color: #fff; */
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato';
+    font-weight: 520;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      7px 7px 20px 0px rgba(0,0,0,.1),
+      4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+   }
+   
+   .custombtn2 {
+    background: linear-gradient(90deg, #FAF9F6 -2%, #d49a37 100%);
+    color:  #800020;
+    border: none;
+   }
+   
+   .custombtn2:before {
+    height: 0%;
+    width: 2px;
+   }
+   
+   .custombtn2:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+                 -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+       inset -4px -4px 6px 0 rgba(255,255,255,.2),
+       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+   }
+  
+   .card {
+    padding: 20px;
+    width: 270px;
+    min-height: 270px;
+    border-radius: 20px;
+    background: #FFF4E0;
+    box-shadow: 5px 5px 6px #dadada,
+                 -5px -5px 6px #f6f6f6;
+    transition: 0.4s;
+    margin-bottom: 20px
+  }
+  
+  .card:hover {
+    translate: 0 -10px;
+  }
+  
+  .cardtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2e54a7;
+    margin: 15px 0 0 10px;
+  }
+  
+  .cardimage {
+    min-height: 170px;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 10px #c3c3c3,
+              inset -8px -8px 10px #cfcfcf;
+  }
+  
+  .cardbody {
+    margin: 13px 0 0 10px;
+    color: rgb(31, 31, 31);
+    font-size: 15px;
+  }
+  
+  .footer {
+    float: right;
+    margin: 28px 0 0 18px;
+    font-size: 13px;
+    color: #636363;
+  }
+  
+  .byname {
+    font-weight: 700;
+  }
