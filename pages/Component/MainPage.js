@@ -127,14 +127,14 @@ function Section() {
           <Image
             src="/s.jpeg"
             alt="Sana's world Image"
-            width={300}
-            height={400}
+            width={200}
+            height={300}
             className={styles.image}
           />
         </div>
         <div className={styles.imageContainer}>
           <Image
-            src="/s.jpeg"
+            src="/SanaMainPage.jpeg"
             alt="Sana's world Image"
             width={300}
             height={400}
@@ -297,21 +297,21 @@ function Section() {
         </div>
       </div>
       <div className={styles.contactusDiv}>
-        <div className={styles.contactusDivImage}>
+        <div className={styles.imageContainer}>
           <Image
-            src="/s.jpeg" // Replace with your image path
+            src="/SanaMainBottomImage.jpeg" // Replace with your image path
             alt="Sana's world Image"
             width={300} // Adjust the size as needed
             height={400} // Adjust the size as needed
             className={styles.image}
           />
         </div>
-        <div className={styles.contactusDivImage}>
+        <div className={styles.imageContainer}>
           <Image
-            src="/s.jpeg" // Replace with your image path
+            src="/SanaMainBottomImage2.jpeg" // Replace with your image path
             alt="Sana's world Image"
-            width={300} // Adjust the size as needed
-            height={400} // Adjust the size as needed
+            width={200} // Adjust the size as needed
+            height={300} // Adjust the size as needed
             className={styles.image}
           />
         </div>

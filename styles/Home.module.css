@@ -335,8 +335,12 @@
 }
 .contactusDiv{
   display: flex;
-  gap:20px;
-  padding: 10px 40px;
+ 
+  color: #800020;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
   background: linear-gradient(90deg, #FAF9F6 -2%, #D4AF37 100%);
 }
 .ServiceContainer{
@@ -490,9 +494,7 @@
     flex-direction: column;
   }
   
-  .card{
-    width: 350px;
-  }
+ 
   .contactusDiv{
     flex-direction: column;
     justify-content: center;
