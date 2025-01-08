@@ -6,23 +6,32 @@
   justify-content: space-between;
   padding: 20px;
   gap: 20px;
-  flex-wrap: wrap; /* Allows stacking on small screens */
+  flex-wrap: wrap;
+  /* Allows stacking on small screens */
 }
 
 .textContainer {
   flex: 1;
   width: 70%;
-  position: relative; /* Allows positioning chatboxContainer absolutely */
+  position: relative;
+  /* Allows positioning chatboxContainer absolutely */
 }
 
-.imageContainer {
-   position: relative;
-  background-color: #FAF9F6; /* Off-White Background */
-   gap:20px;/* Optional padding */
-  border: 3px solid #D4AF37; /* Gold Border */
-  border-radius: 15px; /* Smooth rounded corners */
-  box-shadow: 0px 8px 20px rgba(212, 175, 55, 0.4); /* Subtle gold shadow for a premium look */
-  overflow: hidden; /* Ensures no content spills out */
+.imageContainer,
+.imageContainer1 {
+  position: relative;
+  background-color: #FAF9F6;
+  /* Off-White Background */
+  gap: 20px;
+  /* Optional padding */
+  border: 3px solid #D4AF37;
+  /* Gold Border */
+  border-radius: 15px;
+  /* Smooth rounded corners */
+  box-shadow: 0px 8px 20px rgba(212, 175, 55, 0.4);
+  /* Subtle gold shadow for a premium look */
+  overflow: hidden;
+  /* Ensures no content spills out */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -45,25 +54,29 @@
 
 .image {
   width: fit-content;
- 
+
 }
 
 .chatboxContainer {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center horizontally */
+  align-items: center;
+  /* Center horizontally */
   gap: 10px;
-  margin-top: 20px; /* Adds spacing between the button and chatboxes */
+  margin-top: 20px;
+  /* Adds spacing between the button and chatboxes */
 }
 
 .chatbox {
   background: #a04c74;
-  color: white; /* Adjust text color if needed */
+  color: white;
+  /* Adjust text color if needed */
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   width: 100%;
-  max-width: 300px; /* Adjust as needed */
+  max-width: 300px;
+  /* Adjust as needed */
 }
 
 /* Main Container */
@@ -82,16 +95,16 @@
   margin-bottom: 20px;
   display: flex;
   color: #800020;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .tagline {
   font-size: 12px;
   color: #2F4F4F;
   letter-spacing: 2px;
-  
+
 }
 
 .title {
@@ -137,7 +150,7 @@
   overflow: hidden;
 }
 
-/* From Uiverse.io by waleedlh10 */ 
+/* From Uiverse.io by waleedlh10 */
 .card {
   width: 280px;
   background: a04c74;
@@ -159,14 +172,17 @@
   display: flex;
   align-items: top;
   justify-content: right;
-  
+
 }
-.imagefill{
+
+.imagefill {
   color: transparent;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   object-fit: fill;
-  width: -webkit-fill-available;}
+  width: -webkit-fill-available;
+}
+
 .save {
   transition: 0.2s ease-in-out;
   border-radius: 10px;
@@ -191,7 +207,7 @@
 
 .text {
   padding: 7px 20px;
-  background:  #FFF4E0;
+  background: #FFF4E0;
   color: #800020;
   font-weight: 600;
   align-items: center;
@@ -224,18 +240,22 @@
   border-radius: 2px;
   text-align: center;
 }
-.Contactus{
+
+.Contactus {
   margin: 0;
   color: black;
   /* padding: 5px 15px; */
   font-size: smaller;
 }
+
 .iconbox .span {
   font-family: system-ui;
   font-size: small;
   font-weight: 500;
   color: #fff;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */
 
 .authorcontainer {
   text-align: center;
@@ -246,12 +266,14 @@
   margin: 20px auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .quote {
   font-size: 20px;
   font-style: italic;
   color: white;
- 
+
 }
+
 .author {
   display: block;
   margin-top: 10px;
@@ -259,13 +281,13 @@
   color: white;
 }
 
-.testimonialcontainer{
+.testimonialcontainer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
- justify-content: center;
+  justify-content: center;
   padding: 20px;
-  
+
   gap: 20px;
   flex-wrap: wrap;
   background: #FAF9F6;
@@ -273,7 +295,8 @@
   color: #800020;
 
 }
-.testimonialquote{
+
+.testimonialquote {
   font-size: 20px;
   font-style: italic;
   color: #800020;
@@ -289,12 +312,12 @@
   flex-direction: column;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2);
-   justify-content: space-between;
+  justify-content: space-between;
   /* background-color:  rgb(233 233 233); */
   padding: 20px;
   border-color: #FFD700;
   max-width: 320px;
-  background:#FFF5E6 
+  background: #FFF5E6
 }
 
 .testimonialstars {
@@ -311,7 +334,7 @@
 
 .testimonialinfos {
   margin-top: 1rem;
-  
+
 }
 
 .testimonialdatetime {
@@ -331,11 +354,12 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
   font-weight: 500;
-  color:#800020;
+  color: #800020;
 }
-.contactusDiv{
+
+.contactusDiv {
   display: flex;
- 
+
   color: #800020;
   align-items: center;
   justify-content: space-between;
@@ -343,7 +367,8 @@
   gap: 20px;
   background: linear-gradient(90deg, #FAF9F6 -2%, #D4AF37 100%);
 }
-.ServiceContainer{
+
+.ServiceContainer {
   background: #FAF9F6;
   padding: 20px 0px;
   color: #800020;
@@ -351,7 +376,8 @@
   flex-direction: column;
   justify-content: center;
 }
-.productList{
+
+.productList {
   display: flex;
   justify-content: center;
   background: #FAF9F6;
@@ -361,33 +387,41 @@
   gap: 15px;
 }
 
-.contactusDivImage{
+.contactusDivImage {
   position: relative;
-  background-color: #FAF9F6; /* Off-White Background */
-   gap:20px;/* Optional padding */
-  border: 3px solid #D4AF37; /* Gold Border */
-  border-radius: 15px; /* Smooth rounded corners */
-  box-shadow: 0px 8px 20px rgba(212, 175, 55, 0.4); /* Subtle gold shadow for a premium look */
-  overflow: hidden; /* Ensures no content spills out */
+  background-color: #FAF9F6;
+  /* Off-White Background */
+  gap: 20px;
+  /* Optional padding */
+  border: 3px solid #D4AF37;
+  /* Gold Border */
+  border-radius: 15px;
+  /* Smooth rounded corners */
+  box-shadow: 0px 8px 20px rgba(212, 175, 55, 0.4);
+  /* Subtle gold shadow for a premium look */
+  overflow: hidden;
+  /* Ensures no content spills out */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.contactusDivText{
-  width: 70% ;
-  color:black;
-  justify-content:center;
 
-  display:flex;
+.contactusDivText {
+  width: 70%;
+  color: black;
+  justify-content: center;
+
+  display: flex;
   flex-direction: column;
 }
 
 
 
-.buttonDiv{
+.buttonDiv {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-top: 30px;
 }
+
 .custombtn1 {
   width: 130px;
   height: 40px;
@@ -401,37 +435,39 @@
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
-    7px 7px 20px 0px rgba(0,0,0,.1),
-    4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+    7px 7px 20px 0px rgba(0, 0, 0, .1),
+    4px 4px 5px 0px rgba(0, 0, 0, .1);
   outline: none;
- }
- 
- .custombtn1 {
-  background: rgb(96,9,240);
-  background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+}
+
+.custombtn1 {
+  background: rgb(96, 9, 240);
+  background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
   border: none;
- }
- 
- .custombtn1:before {
+}
+
+.custombtn1:before {
   height: 0%;
   width: 2px;
- }
- 
- .custombtn1:hover {
-  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
-               -4px -4px 6px 0 rgba(116, 125, 136, .5), 
-     inset -4px -4px 6px 0 rgba(255,255,255,.2),
-     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
- }
+}
 
- 
- @keyframes scroll {
+.custombtn1:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+    -4px -4px 6px 0 rgba(116, 125, 136, .5),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
+
+@keyframes scroll {
   0% {
     transform: translateX(0);
   }
+
   100% {
-    transform: translateX(calc(-150px * 7)); /* Adjust based on single logo width */
+    transform: translateX(calc(-150px * 7));
+    /* Adjust based on single logo width */
   }
 }
 
@@ -450,73 +486,122 @@
 
 .slidetrack {
   display: flex;
-  width: calc(150px * 14); /* Adjust based on total logos */
+  width: calc(250px * 14);
+  /* Adjust based on total logos */
   animation: scroll 40s linear infinite;
 }
 
 
+
 .slide {
-  height: 50px;
-  width: 150px;
+  height: 100px;
+  width: 250px;
   color: transparent;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .slide:hover {
   filter: grayscale(0%);
 }
 
+.testimonialContain {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  /* height: 250px; */
+  justify-content: center;
+}
+
 @media (max-width: 980px) {
+
+  .imageContainer1 {
+    display: none;
+  }
+
+  .card {
+    width: 300px;
+  }
+  .title {
+    font-size: 25px;
+  }
+
+  .h6,
+  .icon {
+    font-size: 16px;
+  }
+
+  .description,
+  .paragraph,
+  .testimonialauthor,
+  .testimonialdescription {
+    font-size: 14px;
+  }
+
   .imageList_column {
     grid-template-columns: repeat(1, 1fr);
   }
-  .VideoList_column{
+
+  .VideoList_column {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .sectionContainer {
     flex-direction: column;
     text-align: center;
   }
-.imageContainer{
-  flex-direction: column;
-  text-align: center;
-}
+
+  .imageContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
   .textContainer {
-    max-width: 100%;
+    width: 100%;
   }
 
   .imageContainer {
     margin-top: 20px;
   }
-  .container{
+
+  .container {
     flex-direction: column;
   }
-  
- 
-  .contactusDiv{
+
+  .header {
+    justify-content: center;
+  }
+
+  .contactusDiv {
     flex-direction: column;
     justify-content: center;
   }
-  .contactusDivImage{
+
+  .contactusDivImage {
     width: 100%;
     margin-top: 10px;
   }
-  .contactusDivText{
+
+  .contactusDivText {
     width: 100%;
     text-align: center;
     margin-top: 10px;
   }
-  .imageContainer{
-   display: block;
+
+  .imageContainer {
+    display: block;
   }
-  .testimonialcontainer{
+
+  .testimonialcontainer {
     margin-top: 10px;
   }
-  .imageListDiv ,.VideoListDiv{
+
+  .imageListDiv,
+  .VideoListDiv {
     padding: 20px 30px
   }
 
-  
+
 }

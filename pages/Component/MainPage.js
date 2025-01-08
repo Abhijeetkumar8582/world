@@ -99,22 +99,24 @@ function Section() {
     },
   ];
   const logos = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR29jJmnCHEmWMVxs23fsUJlOgUnkKFWt1e2w&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrotBCleOMV22kV6ovSv_F15Z8mbVi42QrpQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2MpyOaZUjaff96esjQYIL97SCw1pRVRS8g&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSySbYggo3MrOnfRIxwnK0xTW_HNc8QrpVitg&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxzlB4eoqwB5e-9rbNdINVyHt_CosTZkkFBw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbBv-nRd9VGe7WOcdx34nZtHFMktz__rANFw&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLNdJfnrn5jc_Z5V12p1pwQMaW5kfARNs1DQ&s",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4m1QvqCwBB8cnryx76cpOVMqG8n22LvYHg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPc62qocNH_nQUL8rSMZPW_8xsfNvpNUPduw&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR29jJmnCHEmWMVxs23fsUJlOgUnkKFWt1e2w&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4m1QvqCwBB8cnryx76cpOVMqG8n22LvYHg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPc62qocNH_nQUL8rSMZPW_8xsfNvpNUPduw&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR29jJmnCHEmWMVxs23fsUJlOgUnkKFWt1e2w&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4m1QvqCwBB8cnryx76cpOVMqG8n22LvYHg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPc62qocNH_nQUL8rSMZPW_8xsfNvpNUPduw&s",
-  ];
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0GEREh7Qzjd1AuI9kl0Y3VsgcLOtWBFoReQ&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEnXhju3wEb_xMNs38TBFYS1N9knIUbRiz9A&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzl31tmpK0MkEu5oNo-xgorWdGeYHuYucSWA&s",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOYIYO6Hbd2ecL0ClS_es1ampBYTl37xGBQ&s"
+  ];;
   return (
     <div>
       <div className={styles.sectionContainer}>
         <div className={styles.textContainer}>
-          <h1>Elevate Your Beauty, Naturally</h1>
-          <p>
+          <h1 className={styles.title} >Elevate Your Beauty, Naturally</h1>
+          <p className={styles.paragraph}>
             Discover the essence of luxury with our premium cosmetics, crafted
             to enhance your natural glow. From radiant skin to captivating
             looks, our products blend quality and elegance to empower your
@@ -123,7 +125,7 @@ function Section() {
           <button className={styles.learnMoreButton}>Learn More</button>
         </div>
 
-        <div className={styles.imageContainer}>
+        <div className={styles.imageContainer1}>
           <Image
             src="/s.jpeg"
             alt="Sana's world Image"
@@ -145,12 +147,12 @@ function Section() {
       <div className={styles.container}>
         <div>
           <div className={styles.header}>
-            <p className={styles.tagline}>
+            <p  className={styles.tagline}>
               ENTER AS STRANGERS, LEAVE AS FRIENDS
             </p>
             <h1 className={styles.title}>Our Vision at Sana's World!!</h1>
 
-            <p className={styles.description}>
+            <p  className={styles.description}>
               At Sana's World, we celebrate unique beauty with premium,
               sustainable cosmetics that inspire confidence and enhance natural
               charm.
@@ -163,7 +165,7 @@ function Section() {
                 <span className={styles.icon}>💄</span>
                 <h6 style={{ fontWeight: "600" }}>Luxury Within Reach</h6>
               </div>
-              <p style={{ textAlign: "left" }}>
+              <p className={styles.paragraph} style={{ textAlign: "left" }}>
                 Experience premium-quality cosmetics and services at affordable
                 prices, ideal for all occasions.
               </p>
@@ -177,7 +179,7 @@ function Section() {
                   Unmatched Care and Expertise
                 </h6>
               </div>
-              <p style={{ textAlign: "left" }}>
+              <p  className={styles.paragraph}  style={{ textAlign: "left" }}>
                 Enjoy personalized, top-notch beauty services designed to make
                 you feel confident and radiant.
               </p>
@@ -188,7 +190,7 @@ function Section() {
                 <span className={styles.icon}>🏡</span>
                 <h6 style={{ fontWeight: "600" }}>At-Home Convenience</h6>
               </div>
-              <p style={{ textAlign: "left" }}>
+              <p  className={styles.paragraph}  style={{ textAlign: "left" }}>
                 Relax in the comfort of your home while we bring expert beauty
                 solutions to your doorstep.
               </p>
@@ -219,7 +221,7 @@ function Section() {
       {/* // products */}
       <div className={styles.ServiceContainer}>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <h1>What We Offer</h1>
+          <h1 className={styles.title}>What We Offer</h1>
         </div>
 
         <div className={styles.productList}>
@@ -236,10 +238,10 @@ function Section() {
               </div>
 
               <div className={styles.text}>
-                <p style={{ color: "black", fontWeight: "500" }}>
+                <p className={styles.paragraph} style={{ color: "black", fontWeight: "500" }}>
                   {product.title}
                 </p>
-                <p className={styles.p}>{product.description}</p>
+                <p  className={styles.p}>{product.description}</p>
               </div>
             </div>
           ))}
@@ -251,7 +253,7 @@ function Section() {
         <div className={styles.slidetrack}>
           {logos.concat(logos).map((product, index) => (
             <div className={styles.slide} key={index}>
-              <Image width={100} height={70} src={product}></Image>
+              <Image style={{   mixBlendMode: "multiply"}} width={100} height={70} src={product}></Image>
             </div>
           ))}
         </div>
@@ -265,17 +267,9 @@ function Section() {
             color: " #800020",
           }}
         >
-          <h1>Client Experiences</h1>
+          <h1 className={styles.title}>Client Experiences</h1>
         </div>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            gap: "20px",
-            height: "250px",
-            display: "flex",
-            justifyContent: "center",
-          }}
+        <div className={styles.testimonialContain}
         >
           {makeupPurchases.map((testimonial, index) => (
             /* From Uiverse.io by Yaya12085 */
@@ -284,7 +278,7 @@ function Section() {
                 <p className={styles.testimonialdatetime}>
                   {testimonial.datetime}
                 </p>
-                <p className={styles.testimonialdescription}>
+                <p  className={styles.testimonialdescription}>
                   {testimonial.description}
                 </p>
               </div>
@@ -306,7 +300,7 @@ function Section() {
             className={styles.image}
           />
         </div>
-        <div className={styles.imageContainer}>
+        <div className={styles.imageContainer1}>
           <Image
             src="/SanaMainBottomImage2.jpeg" // Replace with your image path
             alt="Sana's world Image"
@@ -317,7 +311,7 @@ function Section() {
         </div>
         <div className={styles.contactusDivText}>
           <div>
-            <h1 style={{ color: "#800020" }}>
+            <h1 className={styles.title} style={{ color: "#800020" }}>
               Transform Your Look with Expert Makeup Services.
             </h1>
             <p>
@@ -326,7 +320,7 @@ function Section() {
             </p>
           </div>
           <div>
-            <ul class="wrapper">
+            <ul class="wrapper" style={{display:"flex",justifyContent:'center',height:"100%"}}>
               <li class="icon facebook">
                 <span class="tooltip">Facebook</span>
                 <svg
