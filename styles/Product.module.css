@@ -1,6 +1,7 @@
 .buttonDiv {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
     margin-top: 30px;
 }
@@ -168,4 +169,11 @@
 
 .byname {
     font-weight: 700;
+}
+
+
+@media (max-width: 980px) {
+    .card {
+        width: 300px;
+    }
 }

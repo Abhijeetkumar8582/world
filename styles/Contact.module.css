@@ -126,3 +126,6 @@
     object-fit: cover; /* Ensures the video maintains aspect ratio */
   }
   
+  @media (max-width: 980px) {
+    
+  }

@@ -155,5 +155,280 @@
     "description": "Biology serum is an advanced hair care product formulated to hydrate and repair damaged hair. It provides essential nutrients that help to restore the hair's natural moisture balance while enhancing softness and shine. This serum is designed to protect against future breakage and improve the texture of the hair. It smooths the cuticles, reduces frizz, and adds a healthy glow to the hair. Regular use helps to strengthen the hair from the inside out, improving its overall health and appearance. Ideal for all hair types, Biology serum helps promote smoother, shinier, and more manageable hair.",
     "image": "https://m.media-amazon.com/images/I/51aiuoKu5HL._AC_UF894,1000_QL80_.jpg",
     "category": "Serum"
+  }, {
+    "name": "Foxtale The Daily Duet Gentle Cleanser",
+    "description": "FOXTALE cleanser is a gentle yet effective facial cleanser designed to remove dirt, impurities, and makeup without stripping the skin of its natural moisture. Enriched with skin-loving ingredients, it helps to maintain the skin's pH balance, leaving it soft, hydrated, and refreshed. Suitable for all skin types, this cleanser ensures deep cleansing while being mild on sensitive skin.",
+    "image": "https://foxtale.in/cdn/shop/files/1_15_3055917f-9637-4acc-9a36-1e80461ad5b3.jpg?v=1731045894",
+    "category": "Cleanser"
+  },
+  {
+    "name": "Louis Cleanser",
+    "description": "Louis cleanser is a luxurious facial cleanser that effectively cleanses and rejuvenates the skin. It works by removing excess oil, dirt, and impurities while providing a soothing and nourishing experience. Infused with natural extracts, it helps to calm the skin, reduce redness, and improve texture. Ideal for daily use, it leaves the skin feeling fresh, smooth, and glowing.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRk0eXWgPgeHWRbrZDKrdcQftOELtYBFqSEw&s",
+    "category": "Cleanser"
+  },
+  {
+    "name": "The Skin Story Cleanser",
+    "description": "The Skin Story cleanser is a mild, sulfate-free formula that gently cleanses the skin without causing irritation or dryness. It is enriched with vitamins and antioxidants that help to repair and rejuvenate the skin, making it ideal for daily use. This cleanser removes dirt, makeup, and impurities effectively, leaving the skin feeling clean, soft, and radiant. Suitable for all skin types, including sensitive skin.",
+    "image": "https://theskinstory.in/cdn/shop/files/1_80f03f73-30b5-4273-afb8-0658431015f5.jpg?v=1723948144",
+    "category": "Cleanser"
+  },
+  {
+    "name": "Just Herbs Cleanser",
+    "description": "Just Herbs cleanser is a herbal facial cleanser that combines the goodness of Ayurvedic ingredients to provide a deep and natural cleanse. It works by removing toxins, impurities, and excess oil, leaving the skin fresh and rejuvenated. With its soothing properties, it helps to maintain the skin's natural glow while being gentle on the skin. Perfect for all skin types, this cleanser is free from harsh chemicals, ensuring a safe and nourishing skincare experience.",
+    "image": "https://www.justherbs.in/cdn/shop/files/2_e85c55f3-ce87-4398-bc90-2f61a72e3753_1280x.jpg?v=1718003398",
+    "category": "Cleanser"
+  },
+  {
+    "name": "Pilgrim Moisturizer",
+    "description": "Pilgrim moisturizer is a lightweight and hydrating formula that nourishes the skin deeply while maintaining its natural moisture barrier. Enriched with natural ingredients, it helps to improve skin texture, leaving it soft, smooth, and radiant. Ideal for all skin types, this moisturizer provides long-lasting hydration without feeling greasy.",
+    "image": "https://discoverpilgrim.com/cdn/shop/files/squalane-glow-moisturizer-855259_8160e311-9879-420d-8a2f-e15446aae127.jpg?v=1735042345",
+    "category": "Moisturizer"
+  },
+  {
+    "name": "ME-ON Moisturizer",
+    "description": "ME-ON moisturizer is designed to provide intense hydration and care for dry and dull skin. It is enriched with vitamins and antioxidants that rejuvenate the skin, making it soft and supple. The lightweight formula absorbs quickly, leaving the skin refreshed and non-greasy. Suitable for daily use, it enhances the skin’s natural glow and elasticity.",
+    "image": "https://m.media-amazon.com/images/I/51Kg0PbYKkL.jpg",
+    "category": "Moisturizer"
+  },
+  {
+    "name": "Maliao Moisturizer",
+    "description": "Maliao moisturizer is a nourishing skincare solution that hydrates and revitalizes the skin. Infused with rich emollients, it helps restore moisture to dry and damaged skin, leaving it healthy and glowing. The non-sticky formula ensures smooth application and is perfect for use under makeup or as part of your daily skincare routine.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwhoSbknvIyONZF_7Q-MhLKKzbHqjqNnka-g&s",
+    "category": "Moisturizer"
+  },
+  {
+    "name": "FOXTALE Moisturizer",
+    "description": "FOXTALE moisturizer is a skin-soothing formula that delivers deep hydration while protecting the skin from environmental stressors. Infused with skin-calming ingredients, it helps to reduce redness and improve overall skin health. The lightweight texture makes it suitable for all skin types, providing a smooth and radiant finish.",
+    "image": "https://foxtale.in/cdn/shop/files/SGM-01_90556ca9-c8e8-49eb-95da-aa9f2f8ada32.jpg?v=1731043698",
+    "category": "Moisturizer"
+  },
+  {
+    "name": "TLC 365 Moisturizer",
+    "description": "TLC 365 moisturizer offers 24-hour hydration, keeping the skin soft and nourished throughout the day. Enriched with natural extracts, it helps improve skin elasticity and texture, leaving it smooth and radiant. The fast-absorbing formula is suitable for all skin types and provides a non-greasy finish for a comfortable feel.",
+    "image": "https://m.media-amazon.com/images/I/71zfLURupJL.jpg",
+    "category": "Moisturizer"
+  },
+  {
+    "name": "Lucky Beauty Moisturizer",
+    "description": "Lucky Beauty moisturizer is crafted to provide a perfect balance of hydration and nourishment for the skin. The lightweight formula is enriched with vitamins and essential nutrients that improve skin tone and texture. Suitable for daily use, it locks in moisture, leaving the skin feeling soft, smooth, and refreshed all day long.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0BsIdCe7RhJPjHkRlmbSovo6QkvnfPUwNVg&s",
+    "category": "Moisturizer"
+  },
+  {
+    "name": "Louis Moisturizer",
+    "description": "Louis moisturizer is a hydrating solution designed to deeply nourish and replenish dry skin. Its gentle formula is infused with moisturizing agents that restore the skin’s natural moisture balance. Perfect for daily use, it leaves the skin feeling soft, smooth, and radiant without clogging pores.",
+    "image": "https://rukminim2.flixcart.com/image/850/1000/k0zlsi80/moisturizer-cream/2/g/p/120-refair-fairness-moisturising-lotion-louis-herbals-lotion-original-imafkzy28ygxmmgv.jpeg?q=90&crop=false",
+    "category": "Moisturizer"
+  },
+  {
+    "name": "Keauty Beauty Hydro Boost Moisturizer for Face",
+    "description": "Keauty Beauty Hydro Boost Moisturizer for Face is a lightweight, non-greasy formula that hydrates the skin deeply while providing a healthy glow. Enriched with natural extracts, it enhances skin texture and helps maintain hydration levels throughout the day. Perfect for all skin types, this moisturizer ensures the skin feels soft, smooth, and rejuvenated.",
+    "image": "https://m.media-amazon.com/images/I/51NdHD815gL.jpg",
+    "category": "Moisturizer"
+  },
+  {
+    "name": "The Skin Story Toner",
+    "description": "The Skin Story toner is a gentle yet effective formula that helps to refine pores, remove impurities, and balance the skin's pH level. Enriched with natural extracts, it soothes and refreshes the skin, making it a perfect addition to your daily skincare routine. Suitable for all skin types.",
+    "image": "https://theskinstory.in/cdn/shop/files/Hydrating_Pore_Minimizing_Toner.jpg?v=1732870490",
+    "category": "Toner"
+  },
+  {
+    "name": "Pilgrim Toner",
+    "description": "Pilgrim toner is infused with skin-nourishing ingredients to cleanse and tone the skin effectively. It minimizes the appearance of pores, hydrates the skin, and prepares it for better absorption of moisturizers or serums. Ideal for use after cleansing to achieve a radiant and even-toned complexion.",
+    "image": "https://m.media-amazon.com/images/I/71JNvx2i7QL.jpg",
+    "category": "Toner"
+  },
+  {
+    "name": "FOXTALE Toner",
+    "description": "FOXTALE toner provides a refreshing and hydrating boost to the skin. Formulated with soothing and antioxidant-rich ingredients, it helps in tightening pores and improving skin texture. Its lightweight formula leaves the skin feeling clean, smooth, and revitalized.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTXC6YAMXh8AvLNnekd479LToWdh_AUjtZwQ&s",
+    "category": "Toner"
+  },
+  {
+    "name": "Bio Fresh Toner",
+    "description": "Bio Fresh toner is a rejuvenating skincare product that helps to refresh and tone the skin. Enriched with natural botanicals, it effectively removes residual impurities and prepares the skin for further skincare steps. Perfect for maintaining a clean and glowing complexion.",
+    "image": "https://rukminim1.flixcart.com/image/300/300/xif0q/toner/b/m/a/300-pure-herbal-rose-mint-skin-toner-biofresh-original-imah46jdhabcpdnd.jpeg",
+    "category": "Toner"
+  },
+  {
+    "name": "Revamp Toner",
+    "description": "Revamp toner is designed to hydrate, tone, and clarify the skin. It balances the skin's pH level while tightening pores and improving overall skin texture. Infused with nourishing ingredients, this toner is suitable for all skin types and leaves the skin feeling fresh and revitalized.",
+    "image": "https://m.media-amazon.com/images/I/61qt4uydjBL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Toner"
+  },
+  {
+    "name": "Iba Toner",
+    "description": "Iba toner is a lightweight, alcohol-free formula that tones and refreshes the skin. Packed with natural ingredients, it helps to tighten pores, balance oil production, and soothe irritated skin. Suitable for sensitive skin, it ensures a clear and radiant complexion.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_IMtlyzC6I3CAfHDGMiGT-KR2ZKKS3trt2Q&s",
+    "category": "Toner"
+  },
+  {
+    "name": "The Skin Story Sunscreen",
+    "description": "The Skin Story sunscreen offers broad-spectrum protection against UVA and UVB rays while nourishing the skin. Its lightweight, non-greasy formula absorbs quickly, leaving the skin soft and smooth. Ideal for daily use, it prevents sunburn, tanning, and premature aging caused by sun exposure.",
+    "image": "https://theskinstory.in/cdn/shop/files/Moringa_Sunscreen.jpg?v=1731994620",
+    "category": "Sunscreen"
+  },
+  {
+    "name": "Pilgrim Sunscreen",
+    "description": "Pilgrim sunscreen provides high SPF protection and a matte finish, making it perfect for all skin types. Enriched with natural extracts, it not only shields the skin from harmful sun rays but also hydrates and nourishes, leaving it refreshed and healthy-looking.",
+    "image": "https://discoverpilgrim.com/cdn/shop/files/White-background-_1080x1080_d948c366-2ccc-4f78-8a2c-949c1b33b901.jpg?v=1701685726",
+    "category": "Sunscreen"
+  },
+  {
+    "name": "TLC 365 Sunscreen",
+    "description": "TLC 365 sunscreen is designed to provide all-day protection against sun damage. Its lightweight formula blends seamlessly into the skin, offering hydration and a non-sticky finish. Perfect for outdoor activities, it ensures your skin stays protected and radiant.",
+    "image": "https://m.media-amazon.com/images/I/719g71+wNzL.jpg",
+    "category": "Sunscreen"
+  },
+  {
+    "name": "Mamaearth Sunscreen",
+    "description": "Mamaearth sunscreen is a natural and toxin-free formula that offers broad-spectrum SPF protection. Infused with nourishing ingredients, it protects the skin from harmful sun rays while keeping it hydrated. Suitable for all skin types, it is gentle, non-irritating, and safe for regular use.",
+    "image": "https://m.media-amazon.com/images/I/519GWYOgduL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Sunscreen"
+  },
+  {
+    "name": "ZM Sunscreen",
+    "description": "ZM sunscreen delivers effective sun protection with its high SPF formula. Lightweight and non-comedogenic, it ensures your skin is shielded from harmful UV rays without clogging pores. Its moisturizing properties leave the skin feeling soft and smooth throughout the day.",
+    "image": "https://m.media-amazon.com/images/I/61HgwwboVyL.jpg",
+    "category": "Sunscreen"
+  },
+  {
+    "name": "Why Sunscreen",
+    "description": "Why sunscreen offers a powerful shield against sun damage with its broad-spectrum SPF coverage. Its water-resistant and non-greasy formula makes it suitable for all skin types, ensuring a smooth application and long-lasting protection from harmful UV rays.",
+    "image": "https://articles-1mg.gumlet.io/articles/wp-content/uploads/2024/04/Sunscreen.jpg?compress=true&quality=80&w=1000&dpr=2.6",
+    "category": "Sunscreen"
+  },
+  {
+    "name": "Maliao Sunscreen",
+    "description": "Maliao sunscreen is a lightweight and fast-absorbing formula that provides effective sun protection. It minimizes tanning, prevents sunburn, and keeps the skin moisturized. Perfect for everyday use, it leaves the skin feeling fresh, smooth, and protected.",
+    "image": "https://m.media-amazon.com/images/I/51hgodqotfL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Sunscreen"
+  },
+  {
+    "name": "Forever 52 Foundation",
+    "description": "Forever 52 foundation offers a flawless and lightweight finish that lasts all day. Suitable for all skin types, it blends seamlessly to provide medium to full coverage, enhancing your natural beauty.",
+    "image": "https://www.dailylifeforever52.in/cdn/shop/files/BUF002-3.jpg?v=1706532114&width=1500",
+    "category": "Foundation"
+  },
+  {
+    "name": "Mars Foundation",
+    "description": "Mars foundation is designed to provide a smooth and even complexion. Its long-lasting formula ensures all-day coverage, while its lightweight texture keeps the skin comfortable and hydrated.",
+    "image": "https://marscosmetics.in/cdn/shop/files/WEBSITEcopy.jpg4.jpg?v=1709807523",
+    "category": "Foundation"
+  },
+  {
+    "name": "ME-ON Foundation",
+    "description": "ME-ON foundation delivers a radiant and natural-looking finish. Its easy-to-blend formula ensures even application, providing a perfect base for any makeup look.",
+    "image": "https://m.media-amazon.com/images/I/71HJByQXrLL.jpg",
+    "category": "Foundation"
+  },
+  {
+    "name": "Apk Love Foundation",
+    "description": "Apk Love foundation provides buildable coverage with a smooth and velvety finish. Ideal for all skin types, it minimizes pores and imperfections for a flawless appearance.",
+    "image": "https://m.media-amazon.com/images/I/41xjEhw6naL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Foundation"
+  },
+  {
+    "name": "Mate Look Foundation",
+    "description": "Mate Look foundation offers a matte finish that controls oil and shine throughout the day. Perfect for oily and combination skin, it delivers a smooth and even tone.",
+    "image": "https://m.media-amazon.com/images/I/41ZrWw8bqoL.jpg",
+    "category": "Foundation"
+  },
+  {
+    "name": "Recode Foundation",
+    "description": "Recode foundation features a lightweight and breathable formula that provides a natural finish. Enriched with skin-nourishing ingredients, it ensures long-lasting wear and hydration.",
+    "image": "https://m.media-amazon.com/images/I/51bY31uopjL._AC_UF350,350_QL80_.jpg",
+    "category": "Foundation"
+  },
+  {
+    "name": "Maybelline Foundation",
+    "description": "Maybelline foundation offers a wide range of shades to match every skin tone. Its blendable formula provides full coverage with a dewy or matte finish, depending on your preference.",
+    "image": "https://m.media-amazon.com/images/I/71gnzWc8XwL.jpg",
+    "category": "Foundation"
+  },
+  {
+    "name": "Make Foundation",
+    "description": "Make foundation is a versatile product that delivers a radiant and even finish. It blends effortlessly into the skin, creating a smooth base for makeup application.",
+    "image": "https://makeover-bucket-testing.s3.ap-southeast-1.amazonaws.com/images/productthumbnail/e7e629402df46a162c11df753ed2935b9b9535f3.jpg",
+    "category": "Foundation"
+  },
+  {
+    "name": "Inshine Foundation",
+    "description": "Inshine foundation provides a luminous and natural glow to the skin. Its lightweight and buildable formula ensures a flawless complexion with a healthy-looking finish.",
+    "image": "https://m.media-amazon.com/images/I/41SssJFEzlL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Foundation"
+  },
+  {
+    "name": "Mars Lipstick",
+    "description": "Mars lipstick offers vibrant, long-lasting color with a smooth, creamy texture. It glides effortlessly on the lips, providing hydration and a flawless finish.",
+    "image": "https://m.media-amazon.com/images/I/51n2ZHx+7FL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Lipstick"
+  },
+  {
+    "name": "Glam21 Lipstick",
+    "description": "Glam21 lipstick combines bold colors with a moisturizing formula, ensuring a comfortable and non-drying experience. Perfect for everyday wear or special occasions.",
+    "image": "https://m.media-amazon.com/images/I/61+psB8WROL.jpg",
+    "category": "Lipstick"
+  },
+  {
+    "name": "Mate Look Lipstick",
+    "description": "Mate Look lipstick delivers a stunning matte finish with intense pigmentation. Its lightweight formula ensures long-lasting wear without cracking or fading.",
+    "image": "https://m.media-amazon.com/images/I/51FpRejaPoL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Lipstick"
+  },
+  {
+    "name": "Forever 52 Lipstick",
+    "description": "Forever 52 lipstick offers a luxurious and creamy texture that provides a satin finish. It is available in a variety of shades to suit every mood and occasion.",
+    "image": "https://m.media-amazon.com/images/I/619zzTVlH5L.jpg",
+    "category": "Lipstick"
+  },
+  {
+    "name": "Inshine Lipstick",
+    "description": "Inshine lipstick combines rich color payoff with a lightweight and moisturizing formula. It leaves the lips looking radiant and soft throughout the day.",
+    "image": "https://m.media-amazon.com/images/I/71RopmliWNL._AC_UF350,350_QL80_.jpg",
+    "category": "Lipstick"
+  },
+  {
+    "name": "Mars Mascara",
+    "description": "Mars mascara offers intense volume and length to your lashes with a clump-free, long-lasting formula. Its precision brush ensures even application for a dramatic eye look.",
+    "image": "https://m.media-amazon.com/images/I/71l0uG4BwJL.jpg",
+    "category": "Mascara"
+  },
+  {
+    "name": "Forever 52 Mascara",
+    "description": "Forever 52 mascara delivers exceptional curl and definition, enhancing the natural beauty of your lashes. Its waterproof and smudge-proof formula ensures all-day wear.",
+    "image": "https://m.media-amazon.com/images/I/51b7f9MLFnL.jpg",
+    "category": "Mascara"
+  },
+  {
+    "name": "Swiss Beauty Mascara",
+    "description": "Swiss Beauty mascara features a lightweight formula that provides length, volume, and curl. It is enriched with conditioning ingredients for healthy and stunning lashes.",
+    "image": "https://m.media-amazon.com/images/I/61Xh1CwuTYL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Mascara"
+  },
+  {
+    "name": "Inshine Mascara",
+    "description": "Inshine mascara offers bold lash definition with a buildable formula that prevents clumping. It adds length and volume for a striking, eye-catching appearance.",
+    "image": "https://m.media-amazon.com/images/I/41cQbjGx9zL._AC_UF1000,1000_QL80_.jpg",
+    "category": "Mascara"
+  },
+  {
+    "name": "Glam21 Mascara",
+    "description": "Glam21 mascara ensures voluminous, long lashes with its intensely pigmented formula. The unique brush design helps separate and lift lashes effortlessly.",
+    "image": "https://rukminim2.flixcart.com/image/850/1000/k5pn6vk0/mascara/m/d/u/10-professional-makeup-mascara-glam21-original-imafzcfbgkpn9f5m.jpeg?q=90&crop=false",
+    "category": "Mascara"
+  },
+  {
+    "name": "Teen Teen Mascara",
+    "description": "Teen Teen mascara enhances your lashes with its lightweight, smudge-proof formula. It provides a natural yet amplified look, perfect for daily use.",
+    "image": "https://m.media-amazon.com/images/I/51JJKMybWkL.jpg",
+    "category": "Mascara"
+  },
+  {
+    "name": "TFF Mascara",
+    "description": "TFF mascara offers dramatic volume and intense length with its advanced formula. It is waterproof and long-lasting, ensuring stunning lashes all day.",
+    "image": "https://rukminim2.flixcart.com/image/850/1000/k7ry3680/mascara/2/m/f/12-waterproof-and-transparent-mascara-black-tff-original-imafpxzcyg3d5zuy.jpeg?q=90&crop=false",
+    "category": "Mascara"
   }
 ]

@@ -51,6 +51,7 @@ const Contact = () => {
                 display: "flex",
                 justifyContent: "flex-start",
                 gap: "10px",
+                flexWrap:"wrap"
               }}
             >
               <div className={styles.statCard}>
