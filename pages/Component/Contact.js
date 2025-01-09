@@ -10,7 +10,7 @@ const Contact = () => {
         <div className={styles.sectionContainer}>
           <div className={styles.textContainer}>
             <h1>Contact us</h1>
-            <p>
+            <p className={styles.paragraph}>
               We’re here to assist you at Sana World! Feel free to visit us,
               reach out anytime, or WhatsApp us for expert advice. Whether it’s
               skincare tips or makeup solutions, we’re here to help you look and
@@ -20,7 +20,7 @@ const Contact = () => {
               <div className={styles.feature}>
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <span className={styles.icon}>🏡</span>
-                  <h6 style={{ fontWeight: "500", fontFamily: "lato" }}>
+                  <h6 className={styles.information}>
                     &nbsp; &nbsp; R9JJ+HWP, Shyamnagar Station Rd, Banarjee
                     Para, Shyamnagar, Bhatpara, West Bengal 743127
                   </h6>
@@ -30,7 +30,7 @@ const Contact = () => {
               <div className={styles.feature}>
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <span className={styles.icon}>📞</span>
-                  <h6 style={{ fontWeight: "500", fontFamily: "lato" }}>
+                  <h6 className={styles.information}>
                     &nbsp; &nbsp; +01-8582821457
                   </h6>
                 </div>
@@ -39,7 +39,7 @@ const Contact = () => {
               <div className={styles.feature}>
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <span className={styles.icon}>🏡</span>
-                  <h6 style={{ fontWeight: "500", fontFamily: "lato" }}>
+                  <h6 className={styles.information}>
                     {" "}
                     &nbsp; &nbsp;At-Home Convenience
                   </h6>
@@ -47,12 +47,7 @@ const Contact = () => {
               </div>
             </div>
             <div
-              style={{
-                display: "flex",
-                justifyContent: "flex-start",
-                gap: "10px",
-                flexWrap:"wrap"
-              }}
+              className={styles.statDiv}
             >
               <div className={styles.statCard}>
                 <p className={styles.statTitle}>Clients 100+ </p>
@@ -69,7 +64,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className={styles.imageContainer}>
+          <div className={styles.imageContainer1}>
             <Image
               src="/sanaShopOne.jpeg"
               alt="Sana's world Image"

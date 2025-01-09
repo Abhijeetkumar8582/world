@@ -99,17 +99,16 @@ function Section() {
     },
   ];
   const logos = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrotBCleOMV22kV6ovSv_F15Z8mbVi42QrpQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2MpyOaZUjaff96esjQYIL97SCw1pRVRS8g&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSySbYggo3MrOnfRIxwnK0xTW_HNc8QrpVitg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxzlB4eoqwB5e-9rbNdINVyHt_CosTZkkFBw&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbBv-nRd9VGe7WOcdx34nZtHFMktz__rANFw&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLNdJfnrn5jc_Z5V12p1pwQMaW5kfARNs1DQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4m1QvqCwBB8cnryx76cpOVMqG8n22LvYHg&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0GEREh7Qzjd1AuI9kl0Y3VsgcLOtWBFoReQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEnXhju3wEb_xMNs38TBFYS1N9knIUbRiz9A&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzl31tmpK0MkEu5oNo-xgorWdGeYHuYucSWA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOYIYO6Hbd2ecL0ClS_es1ampBYTl37xGBQ&s"
+    "https://cdn.freebiesupply.com/logos/large/2x/l-oreal-professionnel-logo-png-transparent.png",
+    "https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://professional.streax.in/wp-content/themes/streax-retail/coupon/spinner.gif",
+    "https://theskinstory.in/cdn/shop/files/TSS_logo_new_1.png?v=1682868282&width=3290",
+    "https://www.amanoramall.com/assets/images/brand/lPxrM0W5oDRplac0X18959bQYaz8U3.png",
+    "https://www.biolage.com/-/media/Project/Biolage/Biolagecom/Biolage-Logo-2022-330x36-centered.png?h=464&w=2337&hash=093C3FC2AECC33AF1965A1C54E3919F8",
+    "https://a.storyblok.com/f/174198/3198x1078/4c2bdf5854/pilgrim-horizontal-with-tagline-cc.png/m/",
+    "https://airiamall.com/wp-content/uploads/2023/08/mamaearth-Airia-Mall-Gurugram-Delhi.png",
+    "https://www.henkel-gcc.com/resource/image/214622/1x1/1000/1000/6aac5b37116440b0eb2c8b883ea367f4/AC066B0CBFDE347FB042913CD70B0F56/schwarzkopf-corporate.webp",
+    "https://upload.wikimedia.org/wikipedia/commons/a/a1/Revamp_logo.png",
+    "https://urbanyog.com/cdn/shop/files/logo_png-01.png?v=1718103246"
   ];;
   return (
     <div>
@@ -122,7 +121,7 @@ function Section() {
             looks, our products blend quality and elegance to empower your
             unique beauty.
           </p>
-          <button className={styles.learnMoreButton}>Learn More</button>
+          <button className={styles.learnMoreButton}>Explore Now</button>
         </div>
 
         <div className={styles.imageContainer1}>
@@ -253,7 +252,7 @@ function Section() {
         <div className={styles.slidetrack}>
           {logos.concat(logos).map((product, index) => (
             <div className={styles.slide} key={index}>
-              <Image style={{   mixBlendMode: "multiply"}} width={100} height={70} src={product}></Image>
+              <Image style={{   mixBlendMode: "multiply",objectFit:"contain"}} width={150} height={100} src={product}></Image>
             </div>
           ))}
         </div>

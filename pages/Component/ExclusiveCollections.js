@@ -92,7 +92,7 @@ export default function WovenImageList() {
   };
 
   return (
-    <div>
+    <div style={{height:'100vh'}}>
       <Navbar />
 
       {/* Main Section Buttons */}
@@ -187,13 +187,13 @@ export default function WovenImageList() {
                   />
                 )}
               </div>
-              <Typography gutterBottom>
+              <Typography gutterBottom className={styles.paragraph}>
                 {selectedProduct?.description}
               </Typography>
-              <Typography variant="body1" style={{ fontWeight: 'bold',marginTop: '20px'  }}>Get the ideal product for your look. Contact us for expert advice.</Typography>
+              <Typography variant="body1" className={styles.paragraph} style={{ fontWeight: 'bold',marginTop: '20px'  }}>Get the ideal product for your look. Contact us for expert advice.</Typography>
             </DialogContent>
             <DialogActions>
-              <Button onClick={handleClose}>
+              <Button onClick={handleClose} className={styles.paragraph}>
                 Contact at +91-7003803843
               </Button>
             </DialogActions>

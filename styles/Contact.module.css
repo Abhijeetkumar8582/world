@@ -1,20 +1,18 @@
 .sectionContainer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;  /* Three columns of equal width */
+    grid-gap: 20px; /* Space between grid items */
     background: #FAF9F6;
     color: #800020;
-    align-items: center;
-    justify-content: space-between;
     padding: 20px;
     width: 100vw;
     height: 80vh;
-    gap: 20px;
-    flex-wrap: wrap;
     /* Allows stacking on small screens */
 }
 
 .textContainer {
     flex: 1;
-    width: 70%;
+    /* width: 70%; */
     position: relative;
     /* Allows positioning chatboxContainer absolutely */
 }
@@ -22,7 +20,27 @@
 .imageContainer {
     position: relative;
     background-color: #FAF9F6;
-    /* Off-White Background */
+    height: 400px;
+    width: 300;
+    gap: 20px;
+    /* Optional padding */
+    border: 3px solid #D4AF37;
+    /* Gold Border */
+    border-radius: 15px;
+    /* Smooth rounded corners */
+    box-shadow: 0px 8px 20px rgba(212, 175, 55, 0.4);
+    /* Subtle gold shadow for a premium look */
+    overflow: hidden;
+    /* Ensures no content spills out */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.imageContainer1 {
+    position: relative;
+    background-color: #FAF9F6;
+    align-self: center; /* Center items vertically within their grid cell */
+    justify-self: center;
+   height: 300px;
+   width: 200;
     gap: 20px;
     /* Optional padding */
     border: 3px solid #D4AF37;
@@ -121,11 +139,41 @@
     /* Teal accent */
 }
 .video {
-    border-radius: 10px; /* Optional: Rounds the corners of the video */
+    border-radius: 10px;
+    width: 100%; /* Optional: Rounds the corners of the video */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
     object-fit: cover; /* Ensures the video maintains aspect ratio */
   }
-  
-  @media (max-width: 980px) {
-    
+  .information{
+    font-weight: 500;
+    font-family: lato;
+  }
+  .statDiv{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 984px) {
+    .paragraph ,.information,.statTitle{
+        font-size: 14px;
+    }
+    .statDiv{
+        justify-content: center;
+    }
+    .statCard{
+        width: 100%;
+    }
+    .sectionContainer {
+        height: 100vh;
+
+        grid-template-columns: 1fr; /* One column for mobile layout */
+        grid-auto-rows: auto; /* Adjust row height automatically */
+    }
+    .textContainer{
+        width: 100%;
+    }
+    .imageContainer1 {
+        order: -1;
+    }
   }

@@ -140,9 +140,10 @@
 }
 
 .cardtitle {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #2e54a7;
+    font-family: lato;
     margin: 15px 0 0 10px;
 }
 
@@ -155,9 +156,10 @@
 }
 
 .cardbody {
+    font-family: lato;
     margin: 13px 0 0 10px;
     color: rgb(31, 31, 31);
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .footer {
@@ -171,9 +173,16 @@
     font-weight: 700;
 }
 
+.paragraph{
+    font-size: 16px;
+    font-family: lato;
+}
 
 @media (max-width: 980px) {
     .card {
         width: 300px;
+    }
+    .paragraph{
+        font-size: 14px;
     }
 }
