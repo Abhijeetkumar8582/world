@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../../styles/Contact.module.css";
 import Navbar from "./Navbar";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -31,7 +32,7 @@ const Contact = () => {
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <span className={styles.icon}>📞</span>
                   <h6 className={styles.information}>
-                    &nbsp; &nbsp; +01-8582821457
+                    &nbsp; &nbsp; +91-7003581771
                   </h6>
                 </div>
               </div>
@@ -41,7 +42,7 @@ const Contact = () => {
                   <span className={styles.icon}>🏡</span>
                   <h6 className={styles.information}>
                     {" "}
-                    &nbsp; &nbsp;At-Home Convenience
+                    &nbsp; &nbsp;Shop navigation <Link target="_blank" style={{color: "#800020"}} href="https://maps.app.goo.gl/fDLbJXYhYxSdcR266">Click here </Link>
                   </h6>
                 </div>
               </div>

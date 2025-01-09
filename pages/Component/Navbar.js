@@ -48,7 +48,7 @@ function Navbar() {
               <Link
                 className="nav-link"
                 href="/Component/ExclusiveCollections"
-                to="/Review"
+                to="/ExclusiveCollections"
                 style={{ color: "white" }}
               >
                 Exclusive Collections

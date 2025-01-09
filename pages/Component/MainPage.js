@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import Link from "next/link";
 
 function Section() {
   const itemData = [
@@ -55,6 +56,12 @@ function Section() {
       title: "Blinds",
     },
   ];
+  const handleScroll = () => {
+    const targetDiv = document.getElementById("container");
+    if (targetDiv) {
+      targetDiv.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   const products = [
     {
       title: "Haircare",
@@ -108,20 +115,20 @@ function Section() {
     "https://airiamall.com/wp-content/uploads/2023/08/mamaearth-Airia-Mall-Gurugram-Delhi.png",
     "https://www.henkel-gcc.com/resource/image/214622/1x1/1000/1000/6aac5b37116440b0eb2c8b883ea367f4/AC066B0CBFDE347FB042913CD70B0F56/schwarzkopf-corporate.webp",
     "https://upload.wikimedia.org/wikipedia/commons/a/a1/Revamp_logo.png",
-    "https://urbanyog.com/cdn/shop/files/logo_png-01.png?v=1718103246"
-  ];;
+    "https://urbanyog.com/cdn/shop/files/logo_png-01.png?v=1718103246",
+  ];
   return (
     <div>
       <div className={styles.sectionContainer}>
         <div className={styles.textContainer}>
-          <h1 className={styles.title} >Elevate Your Beauty, Naturally</h1>
+          <h1 className={styles.title}>Elevate Your Beauty, Naturally</h1>
           <p className={styles.paragraph}>
             Discover the essence of luxury with our premium cosmetics, crafted
             to enhance your natural glow. From radiant skin to captivating
             looks, our products blend quality and elegance to empower your
             unique beauty.
           </p>
-          <button className={styles.learnMoreButton}>Explore Now</button>
+          <button  onClick={()=>handleScroll()} className={styles.learnMoreButton}>Explore Now</button>
         </div>
 
         <div className={styles.imageContainer1}>
@@ -143,15 +150,15 @@ function Section() {
           />
         </div>
       </div>
-      <div className={styles.container}>
+      <div id="container" className={styles.container}>
         <div>
           <div className={styles.header}>
-            <p  className={styles.tagline}>
+            <p className={styles.tagline}>
               ENTER AS STRANGERS, LEAVE AS FRIENDS
             </p>
             <h1 className={styles.title}>Our Vision at Sana's World!!</h1>
 
-            <p  className={styles.description}>
+            <p className={styles.description}>
               At Sana's World, we celebrate unique beauty with premium,
               sustainable cosmetics that inspire confidence and enhance natural
               charm.
@@ -178,7 +185,7 @@ function Section() {
                   Unmatched Care and Expertise
                 </h6>
               </div>
-              <p  className={styles.paragraph}  style={{ textAlign: "left" }}>
+              <p className={styles.paragraph} style={{ textAlign: "left" }}>
                 Enjoy personalized, top-notch beauty services designed to make
                 you feel confident and radiant.
               </p>
@@ -189,7 +196,7 @@ function Section() {
                 <span className={styles.icon}>🏡</span>
                 <h6 style={{ fontWeight: "600" }}>At-Home Convenience</h6>
               </div>
-              <p  className={styles.paragraph}  style={{ textAlign: "left" }}>
+              <p className={styles.paragraph} style={{ textAlign: "left" }}>
                 Relax in the comfort of your home while we bring expert beauty
                 solutions to your doorstep.
               </p>
@@ -235,13 +242,21 @@ function Section() {
                   alt="Sunglasses" // Always include alt text for accessibility
                 />
               </div>
-
-              <div className={styles.text}>
-                <p className={styles.paragraph} style={{ color: "black", fontWeight: "500" }}>
-                  {product.title}
-                </p>
-                <p  className={styles.p}>{product.description}</p>
-              </div>
+              <Link
+                href="/Component/ExclusiveCollections"
+                to="/ExclusiveCollections"
+                style={{color:'transparent'}}
+              >
+                <div className={styles.text}>
+                  <p
+                    className={styles.paragraph}
+                    style={{ color: "black", fontWeight: "500" }}
+                  >
+                    {product.title}
+                  </p>
+                  <p className={styles.p}>{product.description}</p>
+                </div>
+              </Link>
             </div>
           ))}
         </div>
@@ -252,7 +267,12 @@ function Section() {
         <div className={styles.slidetrack}>
           {logos.concat(logos).map((product, index) => (
             <div className={styles.slide} key={index}>
-              <Image style={{   mixBlendMode: "multiply",objectFit:"contain"}} width={150} height={100} src={product}></Image>
+              <Image
+                style={{ mixBlendMode: "multiply", objectFit: "contain" }}
+                width={150}
+                height={100}
+                src={product}
+              ></Image>
             </div>
           ))}
         </div>
@@ -268,8 +288,7 @@ function Section() {
         >
           <h1 className={styles.title}>Client Experiences</h1>
         </div>
-        <div className={styles.testimonialContain}
-        >
+        <div className={styles.testimonialContain}>
           {makeupPurchases.map((testimonial, index) => (
             /* From Uiverse.io by Yaya12085 */
             <div className={styles.testimonialcard}>
@@ -277,7 +296,7 @@ function Section() {
                 <p className={styles.testimonialdatetime}>
                   {testimonial.datetime}
                 </p>
-                <p  className={styles.testimonialdescription}>
+                <p className={styles.testimonialdescription}>
                   {testimonial.description}
                 </p>
               </div>
@@ -319,7 +338,14 @@ function Section() {
             </p>
           </div>
           <div>
-            <ul class="wrapper" style={{display:"flex",justifyContent:'center',height:"100%"}}>
+            <ul
+              class="wrapper"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                height: "100%",
+              }}
+            >
               <li class="icon facebook">
                 <span class="tooltip">Facebook</span>
                 <svg

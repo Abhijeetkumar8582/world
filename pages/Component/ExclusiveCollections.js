@@ -91,6 +91,17 @@ export default function WovenImageList() {
     return HairCare;
   };
 
+  const handleButtonClick = () => {
+    const phoneNumber = '+91-7003581771';
+    const message = 'Hi, I am looking for some product';
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  
+    // Open WhatsApp in a new window/tab
+    window.open(whatsappURL, '_blank');
+
+    setOpen(false);
+    setSelectedProduct(null);
+  };
   return (
     <div style={{height:'100vh'}}>
       <Navbar />
@@ -193,8 +204,8 @@ export default function WovenImageList() {
               <Typography variant="body1" className={styles.paragraph} style={{ fontWeight: 'bold',marginTop: '20px'  }}>Get the ideal product for your look. Contact us for expert advice.</Typography>
             </DialogContent>
             <DialogActions>
-              <Button onClick={handleClose} className={styles.paragraph}>
-                Contact at +91-7003803843
+              <Button  onClick={()=>handleButtonClick()}  className={styles.paragraph}>
+                Contact at +91-7003581771
               </Button>
             </DialogActions>
           </Dialog>
