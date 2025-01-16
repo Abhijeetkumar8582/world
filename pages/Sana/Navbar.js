@@ -47,7 +47,7 @@ function Navbar() {
               
               <Link
                 className="nav-link"
-                href="/Component/ExclusiveCollections"
+                href="/Sana/ExclusiveCollections"
                 to="/ExclusiveCollections"
                 style={{ color: "white" }}
               >
@@ -55,7 +55,7 @@ function Navbar() {
               </Link>
               <Link
                 className="nav-link"
-                href="/Component/Contact"
+                href="/Sana/Contact"
                 to="/Contact"
                 style={{ color: "white" }}
               >

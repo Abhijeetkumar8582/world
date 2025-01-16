@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect} from "react";
 import HairCare from "../JSON/HairCare.json";
 import styles from "../../styles/Product.module.css";
 import Navbar from "./Navbar";
@@ -41,6 +41,9 @@ const ButtonList = [
 ];
 
 export default function WovenImageList() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [open, setOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
 
@@ -103,11 +106,11 @@ export default function WovenImageList() {
     setSelectedProduct(null);
   };
   return (
-    <div style={{height:'100vh'}}>
+    <div id='start' style={{height:'100vh'}}>
       <Navbar />
 
       {/* Main Section Buttons */}
-      <div className={styles.buttonDiv}>
+      <div  className={styles.buttonDiv}>
         {ButtonList.map((item) => (
           <button
             key={item.section}
@@ -205,7 +208,7 @@ export default function WovenImageList() {
             </DialogContent>
             <DialogActions>
               <Button  onClick={()=>handleButtonClick()}  className={styles.paragraph}>
-                Contact at +91-7003581771
+                Contact at +91-7003850553
               </Button>
             </DialogActions>
           </Dialog>

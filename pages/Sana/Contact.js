@@ -22,8 +22,8 @@ const Contact = () => {
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <span className={styles.icon}>🏡</span>
                   <h6 className={styles.information}>
-                    &nbsp; &nbsp; R9JJ+HWP, Shyamnagar Station Rd, Banarjee
-                    Para, Shyamnagar, Bhatpara, West Bengal 743127
+                     R9JJ+HWP, Shyamnagar Station Rd, Banarjee
+                    Para, Shyamnagar,  Bhatpara, West Bengal 743127
                   </h6>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const Contact = () => {
                 <div style={{ display: "flex", alignItems: "center" }}>
                   <span className={styles.icon}>📞</span>
                   <h6 className={styles.information}>
-                    &nbsp; &nbsp; +91-7003581771
+                     +91-7003850553
                   </h6>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                   <span className={styles.icon}>🏡</span>
                   <h6 className={styles.information}>
                     {" "}
-                    &nbsp; &nbsp;Shop navigation <Link target="_blank" style={{color: "#800020"}} href="https://maps.app.goo.gl/fDLbJXYhYxSdcR266">Click here </Link>
+                    Shop navigation <Link target="_blank" style={{color: "#800020"}} href="https://maps.app.goo.gl/fDLbJXYhYxSdcR266">Click here </Link>
                   </h6>
                 </div>
               </div>

@@ -147,6 +147,7 @@
   .information{
     font-weight: 500;
     font-family: lato;
+    margin-bottom: 0;
   }
   .statDiv{
     display: flex;
